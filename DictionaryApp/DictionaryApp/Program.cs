@@ -21,7 +21,7 @@ namespace DictionaryApp
 
            
 
-            Application.Run(new Form1(GetDictionary()));
+            Application.Run(new DictionaryApp(GetDictionary()));
         }
 
         public static SortedDictionary<string, string> GetDictionary()

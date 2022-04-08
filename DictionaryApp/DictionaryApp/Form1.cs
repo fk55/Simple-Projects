@@ -12,10 +12,10 @@ using System.Data.SqlClient;
 
 namespace DictionaryApp
 {
-    public partial class Form1 : Form
+    public partial class DictionaryApp : Form
     {
         public SortedDictionary<string, string> _dictionary { get; set; }
-        public Form1(SortedDictionary<string,string> dictionary)
+        public DictionaryApp(SortedDictionary<string,string> dictionary)
         {
             _dictionary = dictionary;
             InitializeComponent();

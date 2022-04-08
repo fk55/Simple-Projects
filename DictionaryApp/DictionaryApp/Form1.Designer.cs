@@ -1,6 +1,6 @@
 ﻿namespace DictionaryApp
 {
-    partial class Form1
+    partial class DictionaryApp
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DictionaryApp));
             this.lstWords = new System.Windows.Forms.ListBox();
             this.btnNewWord = new System.Windows.Forms.Button();
             this.lblEnglish = new System.Windows.Forms.Label();
@@ -152,7 +152,7 @@
             this.lblSearch.TabIndex = 13;
             this.lblSearch.Text = "Search";
             // 
-            // Form1
+            // DictionaryApp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -169,8 +169,8 @@
             this.Controls.Add(this.lblEnglish);
             this.Controls.Add(this.btnNewWord);
             this.Controls.Add(this.lstWords);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "DictionaryApp";
+            this.Text = "MyDictionary";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

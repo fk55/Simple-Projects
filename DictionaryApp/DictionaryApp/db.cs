@@ -11,7 +11,7 @@ namespace DictionaryApp
     {
         public static SqlConnection conn()
         {
-            SqlConnection conn = new SqlConnection(@"Server=DESKTOP-MO5HLC4\SQLEXPRESS; Database=fk; Trusted_Connection=True;" + "Integrated Security=true;");
+            SqlConnection conn = new SqlConnection("Write your connection string here");
             return conn;
         }
         

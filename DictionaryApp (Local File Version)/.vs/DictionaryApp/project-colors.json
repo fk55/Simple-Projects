@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "f86131a5-a9cd-404b-998f-cbafa0fc3094": {
+      "ProjectGuid": "f86131a5-a9cd-404b-998f-cbafa0fc3094",
+      "DisplayName": "DictionaryApp",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
